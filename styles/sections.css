@@ -1,0 +1,113 @@
+#projects {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 72px;
+  padding-bottom: 144px;
+}
+
+.my-job {
+  padding-bottom: 56px;
+}
+
+.my-job strong {
+  font: var(--intro-text); 
+}
+
+.my-job h2 {
+  font: var(--h2);
+  color: var(--gray-100);
+  margin-top: 8px;
+}
+
+#grid {
+  gap: 24px; 
+  justify-content: center;   
+}
+
+#grid figure {
+  background: var(--gray-400);
+  border-radius: 12px; 
+  width: 330px;   
+  padding: 12px;
+}
+
+#grid img {
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+#grid h3 {
+  font: var(--h3);
+  color: var(--gray-100);
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+#grid p {
+  font: var(--text-sm);
+  color: var(--gray-200);
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+#services {
+  background-color: var(--gray-600);
+  height: 480px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 88px;
+  padding-bottom: 120px;
+}
+
+.my-services strong {
+  font: var(--intro-text); 
+}
+
+.my-services h2 {
+  font: var(--h2);
+  color: var(--gray-100);
+  margin-top: 8px;
+}
+
+#grid-2 {
+  gap: 24px; 
+  justify-content: center;  
+  padding-top: 56px;
+  padding-bottom: 120px;
+}
+
+#grid-2 figure {
+  border: 1px solid var(--gray-500);
+  border-radius: 12px;
+  width: 280px;
+  height: 155px;
+  padding: 20px 20px;
+}
+
+#grid-2 img {
+  display: block;
+  
+  padding-bottom: 20px;
+}
+
+#grid-2 h3 {
+  font: var(--h3);
+  color: var(--gray-100);
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+#grid-2 p {
+  font: var(--text-sm);
+  color: var(--gray-200);
+  text-align: left;
+  padding-bottom: 20px;
+}

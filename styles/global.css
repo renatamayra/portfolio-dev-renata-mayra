@@ -33,4 +33,39 @@
   --text-sm: 400 14px/140% var(--font-maven);
 }
 
+body {
+  background color: var(--gray-400);
+}
 
+.container {
+  max-width: 1366px;
+  padding-inline: 163px;
+  margin-inline: auto;
+}
+
+.container-2 {
+  padding-inline: 239px;
+  margin-inline: auto;
+}
+
+main {
+  background-color: var(--gray-500);
+  height: 917px;
+}
+
+img { 
+  max-width: 100%;
+}
+
+/* utility-first */
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-24 {
+  gap: 24px;
+}

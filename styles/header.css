@@ -1,17 +1,15 @@
-header {
-  background-color: var(--gray-400);
-  background-image: url(../assets/Background_Intro.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.intro {
+  background: url(../assets/Background_Intro.png) no-repeat center/cover;
   min-height: 750px;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
+
+  padding-top: 120px;
 } 
 
 .header-primary {
@@ -22,15 +20,22 @@ header {
 
 .avatar {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 112px;
+  height: 112px;
+
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box ;
 }
 
 .avatar .profile {
-  width: 100%;
-  height: 100%;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
-  border: 2px solid var(--red);
   object-fit: cover;
 }
 
@@ -40,11 +45,11 @@ header {
   right: -4px;
 }
 
-.intro {
+.info {
   padding-top: 56px;
 }
 
-.intro span {
+.info span {
   color:var(--gray-200);
   font: var(--intro-text);
 }
@@ -53,13 +58,13 @@ header {
   color: var(--red);
 }
 
-.intro h1 {
+.info h1 {
   color: var(--gray-100);
   font: var(--h1);
   padding-block: 8px 20px;
 }
 
-.intro p {
+.info p {
   color: var(--gray-300);
   font: var(--text-sm);
 }
@@ -87,3 +92,11 @@ header {
   text-decoration: none;
 }
 
+.header-icon {
+  padding-top: 94px;
+}
+
+.header-icon img {
+  width: 32px;
+  height: 32px;
+}
