@@ -81,18 +81,24 @@
 }
 
 #grid-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px; 
   justify-content: center;  
   padding-top: 56px;
   padding-bottom: 120px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 #grid-2 figure {
   border: 1px solid var(--gray-500);
   border-radius: 12px;
-  width: 280px;
-  height: 155px;
-  padding: 20px 20px;
+  width: 100%;
+  min-width: 280px;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 #grid-2 img {
