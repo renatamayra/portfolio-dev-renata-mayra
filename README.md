@@ -17,10 +17,6 @@ Site de Portfólio para Desenvolvedora Fullstack, criado para apresentar os proj
 
 <br>
 
-<p align="center">
-  <img alt="preview do Portfólio Dev" src=".github/preview.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
