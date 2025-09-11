@@ -31,6 +31,14 @@
   border-radius: 12px; 
   width: 330px;   
   padding: 12px;
+
+  border: 1.5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#grid figure:hover {
+  border: 1.5px solid var(--gray-300);
+  cursor: pointer;
 }
 
 #grid img {
@@ -159,22 +167,54 @@
   transition: all 0.3s ease;
 }
 
-/* pseudo-selector*/
 #social-button li:hover {
   border: 1.5px solid var(--blue);
   cursor: pointer;
 }
 
-.icon-wrapper {
+.icon-wrapper.linkedin {
   width: 28px;
   height: 28px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../assets/social/linkedin.svg) no-repeat center/contain;
   transition: background-image 0.3s;
 }
 
+#social-button li:hover .icon-wrapper.linkedin {
+  background-image: url(../assets/social/linkedin-hover.svg);
+}
 
+.icon-wrapper.instagram {
+  width: 28px;
+  height: 28px;
+  background: url(../assets/social/instagram.svg) no-repeat center/contain;
+  transition: background-image 0.3s;
+}
+
+#social-button li:hover .icon-wrapper.instagram {
+  background-image: url(../assets/social/instagram-hover.svg);
+}
+
+.icon-wrapper.github {
+  width: 28px;
+  height: 28px;
+  background: url(../assets/social/github.svg) no-repeat center/contain;
+  transition: background-image 0.3s;
+}
+
+#social-button li:hover .icon-wrapper.github {
+  background-image: url(../assets/social/github-hover.svg);
+}
+
+.icon-wrapper.email {
+  width: 28px;
+  height: 28px;
+  background: url(../assets/social/email.svg) no-repeat center/contain;
+  transition: background-image 0.3s;
+}
+
+#social-button li:hover .icon-wrapper.email {
+  background-image: url(../assets/social/email-hover.svg);
+}
 
 .social-links {
   font: var(--text-md);
@@ -182,8 +222,12 @@
   padding-left: 12px;
 }
 
-#social-button li img.arrow {
+.arrow {
+  width: 20px;
+  height: 20px;
   margin-left: auto;
   margin-right: 24px;
+  background: url(../assets/arrowupright.svg) no-repeat center/contain;
+  transition: background-image 0.3s;
 }
 
