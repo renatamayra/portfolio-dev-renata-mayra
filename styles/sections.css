@@ -56,15 +56,10 @@
 }
 
 #services {
-  background-color: var(--gray-600);
-  height: 480px;
-
-  justify-content: center;
-  align-items: center;
+  background-color: var(--gray-600); 
   text-align: center;
-
+  
   padding-top: 88px;
-  padding-bottom: 120px;
 }
 
 .my-services strong {
@@ -111,3 +106,64 @@
   text-align: left;
   padding-bottom: 20px;
 }
+
+#my-contact {
+  background: url(../assets/Background_Contacts.png) no-repeat center/cover;
+  height: 787px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#contact {
+  margin-top: 128px;
+}
+
+#contact strong {
+  font: var(--intro-text);
+  color: var(--purple);
+  padding-bottom: 8px;
+}
+
+#contact h2 {
+  font: var(--h2);
+  color: var(--gray-100);
+  padding-bottom: 8px;
+}
+
+#contact p {
+  font: var(--text-md);
+  color: var(--gray-200);
+  padding-bottom: 48px;
+}
+
+#social-button {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 400px;
+  margin-inline: auto;  
+}
+
+#social-button li {
+  display: flex;
+  align-items: center;
+  height: 68px;
+  background-color: var(--gray-400);
+  border-radius: 8px; 
+  padding-left: 20px;
+  gap: 12px;
+}
+
+.social-links {
+  font: var(--text-md);
+  color: var(--gray-200);
+  padding-left: 12px;
+}
+
+#social-button li img.arrow {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
