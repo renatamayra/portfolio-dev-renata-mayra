@@ -23,7 +23,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 - **HTML5** – estrutura semântica e acessível  
 - **CSS3** – estilização responsiva e animações sutis  
-- **JavaScript** – interatividade e dinamismo  
 - **Git & GitHub** – versionamento e deploy  
 - **Figma** – prototipagem e referência de design  
 
