@@ -69,6 +69,7 @@
 .info p {
   color: var(--gray-300);
   font: var(--text-sm);
+  line-height: 20px;
 }
 
 .header-skills {
