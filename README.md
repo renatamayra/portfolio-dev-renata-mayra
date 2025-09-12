@@ -12,7 +12,7 @@ Aplicação web desenvolvida para apresentar minha trajetória como <strong>Dese
 </p>
 
 <p align="center">
-  <img alt="Preview do projeto" src="assets/portfolio-dev.png" width="600px">
+  <img alt="Preview do projeto" src="assets/portfolio-dev.png" width="auto">
 </p>
 
 ---
