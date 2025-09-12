@@ -178,6 +178,15 @@
   cursor: pointer;
 }
 
+#social-button li a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; /* remove underline do link */
+  color: inherit; /* mantém a cor do texto */
+}
+
 .icon-wrapper.linkedin {
   width: 28px;
   height: 28px;
