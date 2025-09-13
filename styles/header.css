@@ -79,7 +79,7 @@
   padding-top: 80px;
 }
 
-.header-skills li a {
+.header-skills li div {
   display: flex;
   align-items: center;
   gap: 8px;
