@@ -38,7 +38,7 @@ Nele você encontrará:
 - 📂 **Projetos em destaque** – cases reais desenvolvidos por mim  
 - 📞 **Contato direto** – links para redes sociais e formas de contratação  
 
-👉 [Clique aqui para acessar o portfólio online](https://renatamayra.github.io/portfolio-dev/)  
+👉 [Clique aqui para acessar o portfólio online](https://renatamayra.github.io/portfolio-dev-renata-mayra/)  
 
 ---
 
